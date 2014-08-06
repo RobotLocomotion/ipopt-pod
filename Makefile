@@ -1,6 +1,6 @@
 DL_FILE := Ipopt-3.11.8.tgz
 DL_LINK := http://www.coin-or.org/download/source/Ipopt/
-UNZIP_DIR := lcm-1.0.0
+UNZIP_DIR := Ipopt-3.11.8	
 
 all: $(UNZIP_DIR)/Makefile
 	$(MAKE) -C $(UNZIP_DIR) install
